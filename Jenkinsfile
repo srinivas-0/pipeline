@@ -3,7 +3,7 @@ pipeline {
     stages { 
         stage('checkout SCM') {
             steps {
-              sh "git pull https://github.com/srinivas-0/sample-app.git"
+              sh "git pull https://github.com/srinivas-0/pipeline.git"
             }
         }
         stage('Build') {
